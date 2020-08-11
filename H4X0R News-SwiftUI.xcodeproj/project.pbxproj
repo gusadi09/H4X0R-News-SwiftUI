@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC6CD97124E2D97E00BEEB33 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CD97024E2D97E00BEEB33 /* NetworkManager.swift */; };
+		EC6CD97324E2E19800BEEB33 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CD97224E2E19800BEEB33 /* PostData.swift */; };
 		EC7B19E624E048750015BE4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B19E524E048750015BE4C /* AppDelegate.swift */; };
 		EC7B19E824E048750015BE4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B19E724E048750015BE4C /* SceneDelegate.swift */; };
 		EC7B19EA24E048750015BE4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B19E924E048750015BE4C /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC6CD97024E2D97E00BEEB33 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EC6CD97224E2E19800BEEB33 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		EC7B19E224E048750015BE4C /* H4X0R News-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7B19E524E048750015BE4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7B19E724E048750015BE4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC6CD96F24E2D8FA00BEEB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC6CD97024E2D97E00BEEB33 /* NetworkManager.swift */,
+				EC6CD97224E2E19800BEEB33 /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EC7B19D924E048750015BE4C = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		EC7B19E424E048750015BE4C /* H4X0R News-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EC6CD96F24E2D8FA00BEEB33 /* Model */,
 				EC7B19E524E048750015BE4C /* AppDelegate.swift */,
 				EC7B19E724E048750015BE4C /* SceneDelegate.swift */,
 				EC7B19E924E048750015BE4C /* ContentView.swift */,
@@ -146,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6CD97324E2E19800BEEB33 /* PostData.swift in Sources */,
+				EC6CD97124E2D97E00BEEB33 /* NetworkManager.swift in Sources */,
 				EC7B19E624E048750015BE4C /* AppDelegate.swift in Sources */,
 				EC7B19E824E048750015BE4C /* SceneDelegate.swift in Sources */,
 				EC7B19EA24E048750015BE4C /* ContentView.swift in Sources */,
